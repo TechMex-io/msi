@@ -1,3 +1,11 @@
-<h1>{{page.Message}}</h1>
+---
+layout: default
+---
+
+<header class="post-header">
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+</header>
+
+<h3>{{page.Message}}</h3>
 
 <p>{{content}}</p>
