@@ -1,8 +1,8 @@
 ---
 layout: cms
 title: CMSTest
-permalink: /cms/
+permalink: "/cms/"
 Message: this is sample text for the cms
----
 
-CMS Test Page
+---
+CMS Test Page, 123
