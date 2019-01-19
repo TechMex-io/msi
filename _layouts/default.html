@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="page-wrapper">
+      <main class="page-content" aria-label="Content">
+
+      {%- include header.html -%}
+      {%- include content-7.html -%}
+      {%- include content-15.html -%}
+      
+      {%- include logos.html -%}
+      
+      {%- include content-19.html -%}
+      
+      {%- include footer-6.html -%}
+
+        <!-- <div class="wrapper">
+          {{ content }}
+        </div> -->
+      </main>
+
+
+    </div>
+  <script src="{{ "/assets/js/jquery-1.10.2.min.js" | relative_url }} "></script>
+  <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/modernizr.custom.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/page-transitions.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/startup-kit.js" | relative_url }}"></script>
+  </body>
+
+</html>

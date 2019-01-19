@@ -1,0 +1,89 @@
+<header class="header-1" role="banner">
+  <div class="container">
+    <div class="row">
+      <div role="navigation" class="navbar col-sm-12 navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"></button>
+          <a class="brand" rel="author" href="{{ "/" | relative_url }}">
+            <img
+              src="{{ "/assets/img/header/logo@2x.png" | relative_url }}"
+              alt=""
+              width="50"
+              height="50"
+            />
+            {{ site.title | escape }}</a>
+        </div>
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+        <div class="navbar-collapse collapse">
+          <ul class="nav pull-right">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <li><a class="text-uppercase" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+          <ul class="subnav">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="header-1-sub">
+    <div id="pt-main" class="page-transitions pt-perspective">
+      <div class="pt-page pt-page-1">
+        <div class="background"></div>
+        <div class="caption">
+          <div class="container">
+            <h3>
+              We&rsquo;ve created the product that will help your <br />
+              startup to look even better.
+            </h3>
+            <p class="lead">You have the design, you have the code</p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-page pt-page-2">
+        <div class="background"></div>
+        <div class="caption">
+          <div class="container">
+            <h3>Example headline.</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-page pt-page-3">
+        <div class="background"></div>
+        <div class="caption">
+          <div class="container">
+            <h3>Another example headline.</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container controls">
+        <a href="#" class="control-prev"
+          ><span class="fui-arrow-left"> </span
+        ></a>
+        <a href="#" class="control-next"
+          ><span class="fui-arrow-right"> </span
+        ></a>
+      </div>
+    </div>
+  </section>
