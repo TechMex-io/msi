@@ -7,19 +7,20 @@
     <div class="page-wrapper">
       <main class="page-content" aria-label="Content">
 
-      {%- include header.html -%}
-      {%- include content-7.html -%}
-      {%- include content-15.html -%}
-      
-      {%- include logos.html -%}
-      
-      {%- include content-19.html -%}
+      {%- 
+        include header.html
+        heading1=page.headerHeading1
+        subheading1=page.headerSubHeading1
+        heading2=page.headerHeading2
+        subheading2=page.headerSubHeading2
+        heading3=page.headerHeading3
+        subheading3=page.headerSubHeading3
+      -%}
+
+      {{content}}
       
       {%- include footer-6.html -%}
 
-        <!-- <div class="wrapper">
-          {{ content }}
-        </div> -->
       </main>
 
 

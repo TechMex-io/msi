@@ -5,50 +5,42 @@
             <div class="container">
               <div class="row">
                 <h3 class="col-sm-10 col-sm-offset-1">
-                  We prepared some high-quality photos, that you can us in your
-                  projects. When you have to show your application or website on
-                  iPhone.
+                  {{ include.content15Title }}
                 </h3>
               </div>
               <div class="row">
                 <div class="col-sm-6">
                   <p>
-                    The most important part of the Startup Framework is the
-                    samples. The samples form a set of 25 usable pages or you can
-                    add new blocks from UI Kit. By choosing one of the 25
-                    configurations of the future startup.
+                    {{ include.content15Text1 }}
                   </p>
                 </div>
                 <div class="col-sm-6">
                   <p>
-                    Startup Design Framework contains components and complex
-                    blocks which can easily be integrated into almost any design.
-                    All of these components are made in the same style.
+                    {{ include.content15Text2 }}
                   </p>
                 </div>
               </div>
               <div class="row features">
                 <div class="col-sm-7">
                   <img
-                    src="{{ "/assets/img/content/screen-2@2x.png" | relative_url }}"
+                    src="{{ "/assets/img/content/" | relative_url }}{{ include.content15ScreenImg }}"
                     width="540"
                     height="441"
                     alt=""
                   />
                 </div>
                 <div class="col-sm-4 col-sm-offset-1">
-                  <h6>Responsive Layout</h6>
+                  <h6>{{ include.content15Section1Title }}</h6>
                   <p>
-                    Of course we haven&rsquo;t forgotten about the responsive
-                    layout. Create a website with full mobile support.
+                    {{ include.content15Section1Text }}
                   </p>
-                  <h6>Block Model</h6>
+                  <h6>{{ include.content15Section2Title }}</h6>
                   <p>
-                    You can easily combine any components in a variety of design
-                    projects.
+                    {{ include.content15Section2Text }}
                   </p>
+                  
                   <img
-                    src="{{ "assets/img/content/line@2x.png" | relative_url }}"
+                    src="{{ "assets/img/content/" | relative_url }}{{include.section15LineImg}}"
                     width="67"
                     height="61"
                     alt=""
