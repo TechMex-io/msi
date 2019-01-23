@@ -6,9 +6,8 @@ layout: home
 # layout: main
 message: Hello message test for CMS
 subMessage: This is a sub title
-headerHeading1: We&rsquo;ve created products that will help your <br />
-              business thrive.
-headerSubHeading1: Safe and secure data transfers at your fingertips
+headerHeading1: Media Sourcery Inc.
+headerSubHeading1: A security company providing workflow solutions
 headerHeading2: We&rsquo;ve created products that will help your <br />
               business thrive.
 headerSubHeading2: Safe and secure data transfers at your fingertips

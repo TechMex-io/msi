@@ -5,13 +5,9 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle"></button>
           <a class="brand" rel="author" href="{{ "/" | relative_url }}">
-            <img
-              src="{{ "/assets/img/header/logo@2x.png" | relative_url }}"
-              alt=""
-              width="50"
-              height="50"
-            />
-            {{ site.title | escape }}</a>
+            <span>{%- include msi_logo-white.svg -%}</span>
+            <!-- {{ site.title | escape }} -->
+          </a>
         </div>
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -45,10 +41,10 @@
         <div class="background"></div>
         <div class="caption">
           <div class="container">
-            <h3>
+            <h1>
               {{include.heading1}}
-            </h3>
-            <p class="lead">{{include.subheading1}}</p>
+            </h1>
+            <p class="lead" style="letter-spacing: 1.5px;">{{include.subheading1}}</p>
           </div>
         </div>
       </div>
