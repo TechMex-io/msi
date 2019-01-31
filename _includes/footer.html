@@ -1,35 +1,28 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+<footer class="footer4">
+  <div class="container">
+    <div class="left">
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Support</a>
+      <span class="mobile_row2">
+            <a href="#" class="social tw"></a>
+            <a href="#" class="social fb"></a>
+            <a href="#" class="social gp"></a>
+          </span>
+    </div>
+    <div class="right">
+      <a href="#">HELP</a>
+      <a href="#">CONTACT US</a>
+      <a href="#">LIVE CHAT</a>
+    </div>
+    <div class="clr"></div>
+    <div class="left">
+      <a href="#" class="grey">PRIVACY POLICY</a>
+      <a href="#" class="grey">TERMS <i>& </i>CONDITIONS</a>
+    </div>
+    <div class="right">
+      © 2019 Media Sourcery Inc.- Austin, TX - All Rights Reserved
     </div>
 
   </div>
-
 </footer>

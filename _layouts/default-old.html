@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="page-wrapper">
+      <main class="page-content" aria-label="Content">
+
+      {%- 
+        include header.html
+        heading1=page.headerHeading1
+        subheading1=page.headerSubHeading1
+        heading2=page.headerHeading2
+        subheading2=page.headerSubHeading2
+        heading3=page.headerHeading3
+        subheading3=page.headerSubHeading3
+      -%}
+
+      {{content}}
+      
+      {%- include footer.html -%}
+
+      </main>
+
+
+    </div>
+    <script src="{{ "/assets/js/jquery-1.10.2.min.js" | relative_url }} "></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/modernizr.custom.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/page-transitions.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/startup-kit.js" | relative_url }}"></script>
+  </body>
+
+</html>
