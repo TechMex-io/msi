@@ -1,18 +1,28 @@
-<a class="mobile_menu" data-open="nav5" id="mobile_menu"></a>
-		
-<nav class="nav5" id="nav">
-  <a class="mobile_menu_close"></a>
-  <div class="container">
-    <a href="#" class="nav5_logo">Media Sourcery, Inc.</a>
-    <a href="#">Showcase</a>
-    <a href="#">Key Features</a>
-    <a href="#">Our Services</a>
-    <a href="#">Our Customers</a>
-
-    <div class="socials">
-      <a href="#" target="_blank" class="tw"></a>
-      <a href="#" target="_blank" class="fb"></a>
-      <a href="#" target="_blank" class="gp"></a>
+<header>
+  <nav id="header-top" class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ "/" | relative_url }}">
+          <img style="height: 30px; width:45px;" src="{{ "/assets/logos/msiLogo_b.png" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#slider-area">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="download-btn" href="#contact-area">Download</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</header>
