@@ -496,7 +496,9 @@ textarea:focus {
  .gray-bg { background: #faf9ff }
  .blue-bg { background: #4FC1F0}
  .default-bg { background: #50C1F0 }
- .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;}
+ /* .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;} */
+ .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #0B2247 0%, #2A5190 100%) repeat scroll 0 0;}
+ 
  .transparent-bg { background: transparent }
  
 /*** image background ***/
