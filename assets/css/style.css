@@ -287,7 +287,8 @@ header {
   padding: 40px 0 35px;
   transition: all 0.3s ease 0s;
 }
-.awesome-feature:hover{background: #ff5f6d none repeat scroll 0 0;}
+/* .awesome-feature:hover{background: #ff5f6d none repeat scroll 0 0;} */
+.awesome-feature:hover{background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #0B2247 0%, #2A5190 100%) repeat scroll 0 0;}
 .awesome-feature-icon span {
     display: block;
     height: 60px;
@@ -297,8 +298,8 @@ header {
 	margin:0 auto;
 }
 .awesome-feature-icon span:after {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #0B2247 0%, #2A5190 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, #0B2247 0%, #2A5190 100%) repeat scroll 0 0;
     border-radius: 60px;
     content: "";
     height: 100%;
@@ -326,14 +327,17 @@ header {
     z-index: 1;
 }
 .awesome-feature:hover .awesome-feature-icon i {
-  background-color: #ff5f6d;
+  /* background-color: #0B2247; */
+  background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #2A5190 0%, #0B2247 100%) repeat scroll 0 0;
   box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -webkit-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   -moz-box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.20);
   color: #fff;
 }
 .awesome-feature:hover .awesome-feature-icon span::after {
-  background: #ff5f6d none repeat scroll 0 0;
+  /* background: #0B2247 none repeat scroll 0 0; */
+  background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #2A5190 0%, #0B2247 100%) repeat scroll 0 0;
+
 }
 .awesome-feature-details {
   margin-top: 20px;
