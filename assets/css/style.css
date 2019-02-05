@@ -90,14 +90,16 @@ header {
 }
 .navbar-nav li a.download-btn {
   border: 1px solid #fff;
-  border-radius: 4px;
+  border-radius: 24px;
   margin-top: 10px;
   padding: 8px 30px;
   transition:.3s;
 }
 .navbar-nav li a.download-btn:hover {
-  background: #f75160 none repeat scroll 0 0;
-  border-color: #f75160;
+  /* background: #f75160 none repeat scroll 0 0; */
+  background: linear-gradient(to right bottom, rgb(42, 81, 144) 0%, rgb(11, 34, 71) 100%) 0px 0px repeat scroll rgba(0, 0, 0, 0);
+  /* border-color: #f75160; */
+  border-color: rgb(11, 34, 71);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
