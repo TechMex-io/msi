@@ -492,10 +492,10 @@ textarea:focus {
 /* ============= 18. Background variation set ============= */
  
 /*** colored background ***/
- .white-bg { background: #fff }
- .gray-bg { background: #faf9ff }
- .blue-bg { background: #4FC1F0}
- .default-bg { background: #50C1F0 }
+ .white-bg { background: whitesmoke }
+ .gray-bg { background: #f0f0f1 }
+ .blue-bg { background: #2A5190}
+ .default-bg { background: #0B2247 }
  /* .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;} */
  .video-bg {background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #0B2247 0%, #2A5190 100%) repeat scroll 0 0;}
  
