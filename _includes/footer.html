@@ -1,35 +1,83 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+<footer>
+  <!-- Copyright Area Start -->
+  <div class="copyright-area bg-5 ptb-70">
+    <div class="container">
+      <!-- Contact address left -->
+      <div class="row">
+        <div class="conct-border">
+          <div class="col-md-4 col-sm-4">
+            <div class="single-address">
+              <div class="media">
+                <div class="media-left">
+                  <i class="icofont icofont-phone"></i>
+                </div>
+                <div class="media-body text-center">
+                  <p>512-123-4567
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="single-address">
+              <div class="media">
+                <div class="media-left">
+                  <i class="icofont icofont-web"></i>
+                </div>
+                <div class="media-body text-center">
+                  <p>info@mediasourcery.com
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="single-address">
+              <div class="media">
+                <div class="media-left">
+                  <i class="icofont icofont-social-google-map"></i>
+                </div>
+                <div class="media-body text-center">
+                  <p>1234 Congress Ave, <br> Ausitn,Texas 78249.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <!-- Contact address left -->
+      <!-- Copyright right -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright-area text-center">
+            <!-- Copyright social -->
+            <div class="contact-social text-center pt-70 pb-35">
+              <ul>
+                <li>
+                  <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icofont icofont-social-vimeo"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- Copyright social -->
+            <div class="copyright-text">
+              <p>&copy; Media Sourcery Inc. &bull; All Rights Reserved.</p>
+            </div>
+            <!-- Copyright text -->
+          </div>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+      <!-- Copyright right -->
     </div>
-
   </div>
-
+  <!-- Copyright Area End -->
 </footer>

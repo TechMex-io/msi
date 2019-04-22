@@ -1,90 +1,10 @@
-<header class="header-1" role="banner">
-  <div class="container">
-    <div class="row">
-      <div role="navigation" class="navbar col-sm-12 navbar-fixed-top">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle"></button>
-          <a class="brand" rel="author" href="{{ "/" | relative_url }}">
-            <img
-              src="{{ "/assets/img/header/logo@2x.png" | relative_url }}"
-              alt=""
-              width="50"
-              height="50"
-            />
-            {{ site.title | escape }}</a>
-        </div>
-        {%- assign default_paths = site.pages | map: "path" -%}
-        {%- assign page_paths = site.header_pages | default: default_paths -%}
-        <div class="navbar-collapse collapse">
-          <ul class="nav pull-right">
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <li><a class="text-uppercase" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
-          <ul class="subnav">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Affiliates</a></li>
-            <li><a href="#">Newsletter</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
+<header class="header15">
+    <div class="container">
+      <div class="inner">
+        <h1>Rift. <span>Next Generation</span> <i>Virtual</i> Reality</h1>
+        <div class="header15_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, necessitatibus. At quos vel, et possimus, praesentium voluptates obcaecati, enim inventore distinctio impedit repudiandae sequi.</div>
+        <a href="#" class="header15_btn big">Order Now</a>
+        <div class="header15_text2">Available Now.</div>
       </div>
     </div>
-  </div>
-</header>
-
-<section class="header-1-sub">
-    <div id="pt-main" class="page-transitions pt-perspective">
-      <div class="pt-page pt-page-1">
-        <div class="background"></div>
-        <div class="caption">
-          <div class="container">
-            <h3>
-              {{include.heading1}}
-            </h3>
-            <p class="lead">{{include.subheading1}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="pt-page pt-page-2">
-        <div class="background"></div>
-        <div class="caption">
-          <div class="container">
-            <h3>
-              {{include.heading2}}
-            </h3>
-            <p class="lead">
-              {{include.subheading2}}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="pt-page pt-page-3">
-        <div class="background"></div>
-        <div class="caption">
-          <div class="container">
-            <h3>
-              {{include.heading3}}
-            </h3>
-            <p class="lead">
-              {{include.subheading3}}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container controls">
-        <a href="#" class="control-prev"
-          ><span class="fui-arrow-left"> </span
-        ></a>
-        <a href="#" class="control-next"
-          ><span class="fui-arrow-right"> </span
-        ></a>
-      </div>
-    </div>
-  </section>
+  </header>
