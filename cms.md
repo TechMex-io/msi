@@ -5,4 +5,4 @@ permalink: "/cms/"
 Message: this is sample text for the cms
 
 ---
-CMS Test Page, 456
+CMS Test Page, 123
