@@ -20,4 +20,4 @@ section_six: text for Security Services - susidiary, MORE George Testing
 ---
 General Expansion text goes here.
 
-**hello this is george testing, and again**
+**hello this is george testing**
