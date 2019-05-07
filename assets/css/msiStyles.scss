@@ -1,0 +1,9 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "styles";
+
+@import "msiPartials/navbar.css";
+@import "msiPartials/hero.css";
+@import "msiPartials/how-it-works.css";
