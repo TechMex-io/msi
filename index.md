@@ -38,5 +38,4 @@ logo4: theNewYorkTimes.png
 logo5: tumblr.png
 content19Quote: Samples! will show you the feeling on how to play around using the
   components in the website building process.
-
 ---
