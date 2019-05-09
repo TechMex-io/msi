@@ -1,4 +1,4 @@
-<header>
+<!-- <header>
   <nav id="header-top" class="navbar">
     <div class="container">
       <div class="navbar-header">
@@ -25,4 +25,25 @@
       </div>
     </div>
   </nav>
-</header>
+</header> -->
+
+<nav>
+  <div class="nav-wrapper">
+    <!-- logo -->
+    <a href="{{ "/" | relative_url }}" class="brand-logo"><img style="height: 30px; width:45px;" src="{{ "/assets/logos/msiLogo_w.png" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive">
+    </a>
+    <a href='#' data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="{{ "/about" | relative_url }}">About</a></li>
+      <li><a href="{{ "/story" | relative_url }}">Story</a></li>
+      <li><a href="{{ "/expansion" | relative_url }}">Expansion</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-menu">
+    <li><a href="{{ "/about" | relative_url }}">About</a></li>
+    <li><a href="{{ "/story" | relative_url }}">Story</a></li>
+    <li><a href="{{ "/expansion" | relative_url }}">Expansion</a></li>
+</ul>
+
