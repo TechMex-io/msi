@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Media Sourcery
-email: contact@mediasourcery.com
+email: info@mediasourcery.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Media Sourcery Inc. is a security company that needs to write this description.
+  Media Sourcery Inc., A security company providing workflow solutions.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dev.mediasourcery.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: msiTwitter
