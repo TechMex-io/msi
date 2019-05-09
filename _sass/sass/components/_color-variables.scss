@@ -1,5 +1,44 @@
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
+$msi-blue: (
+  "base":       #355cb1,
+  "lighten-5":  #89a3dc,
+  "lighten-4":  #7694d6,
+  "lighten-3":  #6285d0,
+  "lighten-2":  #4e76ca,
+  "lighten-1":  #3b66c4,
+  "darken-1":   #2f529d,
+  "darken-2":   #294889,
+  "darken-3":   #233d76,
+  "darken-4":   #1d3362,
+);
+
+$msi-brown: (
+  "base":       #b18835,
+  "lighten-5":  #dcc089,
+  "lighten-4":  #d6b676,
+  "lighten-3":  #d0ab62,
+  "lighten-2":  #caa14e,
+  "lighten-1":  #c4963b,
+  "darken-1":   #9d782f,
+  "darken-2":   #896929,
+  "darken-3":   #765a23,
+  "darken-4":   #624b1d,
+);
+
+$msi-red: (
+  "base":       #b14935,
+  "lighten-5":  #dc9789,
+  "lighten-4":  #d68676,
+  "lighten-3":  #d07462,
+  "lighten-2":  #ca634e,
+  "lighten-1":  #c4523b,
+  "darken-1":   #9d412f,
+  "darken-2":   #893929,
+  "darken-3":   #763123,
+  "darken-4":   #62291d,
+);
+
 $materialize-red: (
   "base":       #e51c23,
   "lighten-5":  #fdeaeb,
@@ -331,6 +370,9 @@ $shades: (
 );
 
 $colors: (
+  "msi-blue": $msi-blue,
+  "msi-brown": $msi-brown,
+  "msi-red": $msi-red,
   "materialize-red": $materialize-red,
   "red": $red,
   "pink": $pink,

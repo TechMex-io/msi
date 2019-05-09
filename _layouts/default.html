@@ -16,27 +16,6 @@
     <script src="{{ "/assets/js/global.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/tooltip.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/cards.js" | relative_url }}"></script>
-		<!-- map js -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
-		<script>
-			/*START CONTACT MAP JS*/
-			function initialize() {
-			  var mapOptions = {
-				zoom: 12,
-				scrollwheel: false,
-				center: new google.maps.LatLng(43.538263, -80.305922)
-			  };
-			  var map = new google.maps.Map(document.getElementById('map'),
-				  mapOptions);
-			  var marker = new google.maps.Marker({
-				position: map.getCenter(),
-				icon: '/assets/img/icon/map-icon.png',
-				map: map
-			  });
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);	
-		   /*END CONTACT MAP JS*/
-		</script>
   </body>
 
 </html>
