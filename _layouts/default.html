@@ -8,14 +8,13 @@
     {{ content }}
     {%- include msi-footer.html -%}
 
-    <!-- all js here -->
-    <script src="{{ "/assets/js/forms.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/dropdown.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/sidenav.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/modal.js" | relative_url }}"></script>
-    <!-- <script src="{{ "/assets/js/global.js" | relative_url }}"></script> -->
-    <script src="{{ "/assets/js/tooltip.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/cards.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/ui_triggers.js" | relative_url }}"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="{{ "/assets/js/jquery-3.4.0.min.js" | relative_url }}"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="{{ "/assets/js/popper.min.js" | relative_url }}"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="{{ "/assets/js/mdb.min.js" | relative_url }}"></script>
   </body>
 </html>

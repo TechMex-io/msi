@@ -1,12 +1,12 @@
 
 <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
+<!-- <ul id="dropdown1" class="dropdown-content">
   <li><a href="#!">Product-1</a></li>
   <li><a href="#!">Product-2</a></li>
 </ul>
 <nav class="z-depth-0">
   <div class="nav-wrapper">
-    <!-- logo -->
+
     <a href="{{ "/" | relative_url }}" class="brand-logo">
       <img style="margin-left: 1em; margin-top:.05em; height: 65px; width:300px;" src="{{ "/assets/logos/MSI-w-tagline-center.svg" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive" id="logo-mobile">
       <img style="margin-left: 1em; margin-top: .03em;height: 65px; width:350px;" src="{{ "/assets/logos/MSI-w-tagline-left.svg" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive" id="logo-large">
@@ -17,7 +17,7 @@
       <li><a href="{{ "/about" | relative_url }}">About</a></li>
       <li><a href="{{ "/story" | relative_url }}">Story</a></li>
       <li><a href="{{ "/plan" | relative_url }}">Expansion</a></li>
-      <!-- Dropdown Trigger -->
+
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Products<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
@@ -31,4 +31,42 @@
     <li><a href="{{ "#" | relative_url }}">Product 1</a></li>
     <li><a href="{{ "#" | relative_url }}">Product 2</a></li>
     
-</ul>
+</ul> -->
+
+
+<nav class="navbar fixed-top navbar-expand-lg z-depth-0 navbar-light grey lighten-5">
+  <a class="navbar-brand" href="{{ "/" | relative_url }}">
+    <img src="{{ "/assets/img/logos/MSI-b.svg" | relative_url }}" alt="Media Sourcery Inc logo" id="mis-nav-logo" style="width:200px;" >
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="{{ "https://pipeline.datamessenger.net/demo/" | relative_url }}" target="_blank">Live Demo</a>
+      </li>
+      <li class="nav-item navLinks dropdown">
+        <a class="nav-link dropdown-toggle" id="productList" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Products
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="productList">
+          <a class="dropdown-item" href="#">Product 1</a>
+          <a class="dropdown-item" href="#">Product 2</a>
+          <a class="dropdown-item" href="#">Product 3</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="{{ "/story" | relative_url }}">Story<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="{{ "/plan" | relative_url }}">Plan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="{{ "/about" | relative_url }}">About</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>

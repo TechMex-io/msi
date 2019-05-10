@@ -2,8 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "styles";
+// bootstrap
+@import "bootstrap.min.css";
+// mdb sytles
+@import "mdb.scss";
+// extra ccs sheet with custom style sheet, but also have a custom scss file in Sass Dir
+@import "msi_custom.css";
 
-@import "msiPartials/navbar.css";
-@import "msiPartials/hero.css";
-@import "msiPartials/how-it-works.css";
