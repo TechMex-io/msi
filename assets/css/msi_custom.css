@@ -1,0 +1,14 @@
+body {
+  background-color: #fafafa;
+}
+
+/* nav links */
+.navLinks {
+  font-weight: bold;
+  letter-spacing: .02em;
+}
+
+/* space for nav bar */
+.mt-navBar {
+  margin-top: 5em;
+}

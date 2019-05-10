@@ -4,15 +4,17 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <!-- Place favicon.ico in the root directory -->
+
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/msi_fav.png" | relative_url }}">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Heebo');
-  </style>    
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>@import url('https://fonts.googleapis.com/css?family=Heebo');</style>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+  <!-- All CSS, in order, bootstrap.min, mdb sass, and msi_custom.css -->
   <link rel="stylesheet" href="{{ "/assets/css/msiStyles.css" | relative_url }}">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="{{ "/assets/js/bin/materialize.min.js" | relative_url }}"></script>
+
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
