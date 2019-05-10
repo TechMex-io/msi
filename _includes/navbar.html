@@ -4,11 +4,12 @@
   <li><a href="#!">Product-1</a></li>
   <li><a href="#!">Product-2</a></li>
 </ul>
-
 <nav class="z-depth-0">
   <div class="nav-wrapper">
     <!-- logo -->
-    <a href="{{ "/" | relative_url }}" class="brand-logo"><img style="margin-left: 1em; margin-top: .4em;height: 40px; width:200px;" src="{{ "/assets/logos/MSI-w.svg" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive">
+    <a href="{{ "/" | relative_url }}" class="brand-logo">
+      <img style="margin-left: 1em; margin-top:.05em; height: 65px; width:300px;" src="{{ "/assets/logos/MSI-w-tagline-center.svg" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive" id="logo-mobile">
+      <img style="margin-left: 1em; margin-top: .03em;height: 65px; width:350px;" src="{{ "/assets/logos/MSI-w-tagline-left.svg" | relative_url }}" alt="Media Sourcery Inc logo" class="img-responsive" id="logo-large">
     </a>
     <a href='#' data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">

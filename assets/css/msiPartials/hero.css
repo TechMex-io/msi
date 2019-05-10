@@ -1,85 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Rufina');
-
-h1 {
-  font-size: 4vw;
-  font-family: 'Rufina', serif;
-  letter-spacing: 2.5px;
+/* need to break these into their own sheets, text and heights */
+.story-text {
+  font-size: 1.3em;
+}
+.vh-50 {
+  height: 50vh;
 }
 
-h1:after {
-  content: '';
-  width: 45vw;
-  border-bottom: solid 1px whitesmoke;
-  position: absolute;
-  left: 5.7vw;
-  top: 5vw;
-  z-index: 1;
+/* mobile view */
+#logo-large {
+  display: none;
 }
 
-.tagline {
-  color: whitesmoke;
-}
-
-@media screen and (min-width: 1500px) {
-  h1:after{
-    left: 1vw;
-    /* top: 14vw; */
+@media (max-width:993px) {
+  .section_img {
+    width: 85vw;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  h1:after{
-    left: 1.5vw;
-    /* top: 14vw; */
+@media (min-width:993px) {
+  #logo-mobile {
+    display: none;
   }
-}
-
-@media only screen and (min-width: 600px ) and (max-width: 991px) {
-  h1 {
-    font-size: 2.4em !important;
-    font-family: 'Rufina', serif;
-    letter-spacing: 2.5px;
-  }
-  h1:after{
-    /* left: 1vw; */
-    top: 6vw;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2.5em !important;
-    font-family: 'Rufina', serif;
-    letter-spacing: 2.5px;
-  }
-  h1:after{
-    content: '';
-    width: 89%;
-    border-bottom: solid 1px whitesmoke;
-    position: absolute;
-    left: 3%;
-    top: 45%;
-    z-index: 1;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 2em !important;
-    font-family: 'Rufina', serif;
-    letter-spacing: 2.5px;
-  }
-  h1:after{
-    content: '';
-    width: 89%;
-    border-bottom: solid 1px whitesmoke;
-    position: absolute;
-    left: 3%;
-    top: 40%;
-    z-index: 1;
-  }
-  .tagline {
-    font-size: 1.75em;
+  #logo-large {
+    display: block !important;
   }
 }
