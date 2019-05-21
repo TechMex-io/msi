@@ -15,7 +15,7 @@ section_four: text for Utilize partner relationships to expand into other areas 
 section_five_title: Explore R&D in Blockchain workflow
 section_five: text for Explore R&D in Blockchain workflow
 section_six_title: Security Services - susidiary
-section_six: text for Security Services - susidiary, MORE George Testing
+section_six: text for Security Services - susidiary, gr/larry's condo test
 
 ---
 General Expansion text goes here.
